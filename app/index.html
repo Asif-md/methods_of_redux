@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- These meta tags come first. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="app/images/favicon.png" type="image/x-icon/png" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  </head>
+  <body>
+    <!--
+         The React app renders into this container.
+         As rendering into the document.body is a bad idea.
+         warning logged by React is:
+         Rendering components directly into document.body is discouraged,
+         since its children are often manipulated by third-party scripts and browser extensions.
+         This may lead to subtle reconciliation issues.
+         Try rendering into a container element created for your app.
+    -->
+    <div class="app" id="app"></div>
+    <!--
+         Magic!
+         All assets (js and css) are injected by html-webpack-plugin automatically,
+         which is why they are missing here.
+         Do not add any assets here!
+    -->
+  </body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "5dad8a20-5aa5-4200-93df-3b731848a5b2",
+    "accountId": null,
+    "name": "ACC1",
+    "accountNo": "ACC1",
+    "accountType": "NODAL",
+    "ifsc": "123456",
+    "created": 1472721734000,
+    "updated": 1472721734000,
+    "approvedDate": null,
+    "approved": false,
+    "createdBy": "user",
+    "updatedBy": "user",
+    "approvedBy": null,
+    "active": false
+  },
+  {
+    "id": "adfdab9e-8198-42b9-81fd-d5062bb5128e",
+    "accountId": null,
+    "name": "FX Mart Pvt. Ltd",
+    "accountNo": "INVALID1",
+    "accountType": "CURRENT",
+    "ifsc": "INVALID",
+    "created": null,
+    "updated": 1470384490000,
+    "approvedDate": null,
+    "approved": false,
+    "createdBy": "",
+    "updatedBy": "admin",
+    "approvedBy": null,
+    "active": false
+  }
+]

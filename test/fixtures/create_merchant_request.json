@@ -1,0 +1,24 @@
+{
+  "name": "MERCHANT-1",
+  "merchantId": "GOOG",
+  "pan": "PAN1",
+  "serviceTax": "STAX-123",
+  "tin": "TIN-123",
+  "cin": "CIN-123",
+
+  "phone": "+91 8123000000",
+  "email": "user@example.com",
+
+  "accountNumber": "ACC-123",
+  "accountType": "NODAL",
+  "ifsc": "DEB123",
+
+  "building": "building 1",
+  "street": "street 1",
+  "area": "alien area",
+  "locality": "locality 1",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "country": "India",
+  "postalCode": "560078"
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "a2757386-e99d-476b-92e2-45da6b07e561",
+        "type": "KKC",
+        "name": "Krishi Kalyan Cess",
+        "effectiveFrom": 1470056030000,
+        "effectiveTo": 1596200030000,
+        "value": 0.5,
+        "created": 1470035588000,
+        "updated": 1470035588000,
+        "approved": true,
+        "approvedDate": 1470035588000,
+        "createdBy": "admin",
+        "updatedBy": "admin",
+        "approvedBy": "admin",
+        "active": true
+    },
+    {
+        "id": "cf5cc428-a424-4dea-83bf-4c387ccca29e",
+        "type": "SBC",
+        "name": "Swaach Bharat Cess",
+        "effectiveFrom": 1470056030000,
+        "effectiveTo": 1596200030000,
+        "value": 0.5,
+        "created": 1470035588000,
+        "updated": 1470035588000,
+        "approved": true,
+        "approvedDate": 1470035588000,
+        "createdBy": "admin",
+        "updatedBy": "admin",
+        "approvedBy": "admin",
+        "active": true
+    }
+]

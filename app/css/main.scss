@@ -1,0 +1,286 @@
+@charset 'utf-8';
+
+@import 'variables';
+@import 'bootstrap-custom';
+
+.debugging {
+  border: 1px solid $debugging-color;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.navbar-nav > li.divider {
+  height: 50px;
+  border-left: 1px solid #e5e5e5;
+}
+
+.welcome-note {
+  padding: 15px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.form {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 330px;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+form,
+.page-container {
+  .page-header {
+    margin-top: 0;
+  }
+}
+
+.jumbotron {
+  padding: 15px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.required-message {
+  color: red;
+  float: right;
+  font-size: 18px;
+  text-align: right;
+  line-height: 41px;
+}
+
+.panel {
+  border-radius: 8px;
+  box-shadow: inset 0 60px 0 0 #ddd, 0 1px 1px rgba(0, 0, 0, 0.05);
+
+  .panel-body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  legend {
+    margin-top: 0;
+    line-height: 1;
+  }
+
+  .lead + hr {
+    margin: 0 0 10px 0 ;
+  }
+}
+
+.required-message {
+  color: red;
+  float: right;
+  font-size: 18px;
+  text-align: right;
+  line-height: 41px;
+}
+
+.remove-margin {
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.glyphicon {
+  top: 3px;
+}
+
+.navbar-right {
+  margin-right: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  line-height: 24px;
+}
+
+.navbar-brand > img {
+  width: 24px;
+  float: left;
+  margin-right: 5px;
+}
+
+legend {
+  margin-top: 20px;
+
+  &[data-toggle="collapse"] {
+    border: none;
+    margin-top: 0;
+    line-height: 1;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+.row-grid {
+  .btn {
+    min-height: 100px;
+    line-height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.details {
+  font-size: 21px;
+  overflow-wrap: break-word;
+  display: block;
+}
+.overflowwrap{
+  overflow-wrap: break-word
+}
+
+.customMargin{
+  margin-right: 10px;
+}
+
+label.details {
+  font-size: 13px;
+  overflow-wrap: break-word;
+  padding: 6px 10px;
+  margin-right: 10px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.alert-fixed-top {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1031;
+  position: fixed;
+  border-radius: 0;
+  border-bottom-width: 5px;
+}
+
+.table-responsive {
+  border: 1px solid #ccc;
+
+  .table {
+    margin-bottom: 0;
+  }
+}
+
+
+.search-success {
+  position: relative;
+
+ .success-icon {
+    top: 35px;
+    z-index: 4;
+    right: 85px;
+    color: #0c0;
+    position: absolute;
+    display: block !important;
+  }
+}
+
+.search-error {
+  color: #c00;
+}
+
+
+.borderForm{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  height: 200px;
+  overflow-y: scroll;
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close1{
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  color: #000 !important;
+  padding-left: 10px;
+  position: relative;
+  top: -30px;
+  right: -10px;
+}
+
+.close2{
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  float: left;
+  color: #000 !important;
+  padding-left: 10px;
+  position: relative;
+  top: -13px;
+  left: -10px;
+}
+
+.checkboxCustom{
+  display: inline;
+}
+
+a{
+  white-space: pre-wrap;
+}

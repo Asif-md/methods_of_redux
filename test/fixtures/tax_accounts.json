@@ -1,0 +1,18 @@
+[
+  {
+    "id": "3826895b-04d3-4d7d-8964-1bea955666d6",
+    "type": "ST",
+    "name": "Service Tax",
+    "effectiveFrom": 1470056030000,
+    "effectiveTo": 1596200030000,
+    "value": 14,
+    "created": 1470035587000,
+    "updated": 1470035588000,
+    "approved": true,
+    "approvedDate": 1470035588000,
+    "createdBy": "admin",
+    "updatedBy": "admin",
+    "approvedBy": "admin",
+    "active": true
+  }
+]

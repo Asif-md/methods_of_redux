@@ -1,0 +1,42 @@
+{
+  "ruleset": {
+    "name": "r1",
+    "eventName": "e1",
+    "order": 1,
+    "effectiveFrom": "10/12/2016 10:20 am",
+    "effectiveTo": "10/12/2016 10:20 pm"
+  },
+  "filter": {
+    "name": "f1",
+    "filters": [
+      {
+        "leftOperand": "1",
+        "operation": "=",
+        "rightOperand": "1"
+      },
+      {
+        "leftOperand": "2",
+        "operation": "=",
+        "rightOperand": "2"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "type":"Fixed Commission Rule",
+      "data": {
+        "name": "r1",
+        "entryFor": "e1",
+        "transactionType": "t1",
+        "merchantId": "d9f267c8-0371-4f4b-9949-a0f3e549dfcc",
+        "commission": "10",
+        "effectiveFrom": "10/12/2015 10:20 am",
+        "effectiveTo": "10/12/2015 10:20 pm",
+        "priority": 1,
+        "payer": "d9f267c8-0371-4f4b-9949-a0f3e549dfcc",
+        "payerType": "Interchange",
+        "entryType": "AP"
+      }
+    }
+  ]
+}

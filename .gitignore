@@ -1,0 +1,18 @@
+# see https://github.com/github/gitignore/blob/master/Node.gitignore
+# for a full example
+
+# Dependency directories
+node_modules
+
+# Webpack output
+build
+
+# Apple OSX finder
+*.DS_Store
+
+# Temporary emacs files
+*~
+\#*\#
+.\#*
+
+.idea
